@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/photoViewer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="share-options"></div>
+
+    <h1> Photo Gallery</h1>
+    <div id="photo-viewer">
+        <a href="#" class="photo-box is-loading"></a>
+        <div class="photo-thumbnails">
+            <a href="img/img.jpeg" class="thumbnail-anchor active" title="Mount Everest">
+                <img src="img/img.jpeg" alt="thumbnail 1" class="myImg">
+            </a>
+            <a href="img/img2.jpeg" class="thumbnail-anchor" title="hawai">
+                <img src="img/img2.jpeg" alt="thumbnail 2" class="myImg">
+            </a>
+            <a href="img/img3.jpeg" class="thumbnail-anchor" title="kurg">
+                <img src="img/img3.jpeg" alt="thumbnail 3" class="myImg">
+            </a>
+            <a href="img/img4.jpeg" class="thumbnail-anchor" title="Norway">
+                <img src="img/img4.jpeg" alt="thumbnail 4" class="myImg">
+            </a>
+            <a href="img/img5.jpeg" class="thumbnail-anchor" title="Denmark">
+                <img src="img/img5.jpeg" alt="thumbnail 5" class="myImg">
+            </a>
+        </div>
+    </div>
+    <!-- modal -->
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img">
+      <div id="caption"></div>
+    </div>
+
+    
+	<script type="text/javascript" src="js/jquery.js" defer></script>
+    <script type="text/javascript" src="js/photoViewer.js" defer></script>
+
+    <script type="text/javascript" src="js/script.js" defer></script>
+
+</body>
+
+</html>
+
+
+
